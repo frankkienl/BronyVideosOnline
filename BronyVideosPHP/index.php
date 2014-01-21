@@ -21,7 +21,7 @@ and open the template in the editor.
       $json = json_decode($json);
       $arr = $json->list;
       foreach($arr as $key => $value){
-        echo "<a href=\"plalist.php?id=".$value->id."\">".$value->name."</a><br />\n";
+        echo "<a href=\"playlist.php?id=".$value->id."\">".$value->name."</a><br />\n";
       }
       ?>
     </body>
